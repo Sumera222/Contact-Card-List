@@ -1,0 +1,18 @@
+h1{
+  color:purple;
+}
+
+.card{
+    box-shadow: 0 0 12px 0 purple;
+
+}
+button:hover{
+    box-shadow:0 0 10px 0 purple;
+}
+
+img{
+  border-radius:10px 10px;
+  box-shadow: 0 0 5px 0 purple;
+}
+
+
