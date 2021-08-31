@@ -34,6 +34,8 @@ function Main() {
           <h5 className='card-email'>Email: {user.email} </h5>
           <h5 className='card-age'>Age: {user.dob.age} </h5>
           <p className='text-center'><button class="btn btn-primary" onClick = {() => setUserAge()}>Toggle Age</button></p>
+          <p className='text-center'><button className="btn btn-primary" onClick = {() => setUserAge(user.dob.age)}>Toggle Age</button></p>     
+             
         </div>
       </div>
     </div>
