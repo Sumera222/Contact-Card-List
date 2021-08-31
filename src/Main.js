@@ -14,7 +14,7 @@ function Main() {
         });
     },[])
     function setUserAge(){
-        alert('Connecting Call..');
+        alert('Toggle Age');
     }
 
     return (
@@ -33,7 +33,7 @@ function Main() {
           <h5 className='card-Gender'>Gender: {user.gender} </h5>
           <h5 className='card-email'>Email: {user.email} </h5>
           <h5 className='card-age'>Age: {user.dob.age} </h5>
-          <p className='text-center'><button class="btn btn-primary" onClick = {() => setUserAge()}>Call</button></p>
+          <p className='text-center'><button class="btn btn-primary" onClick = {() => setUserAge()}>Toggle Age</button></p>
         </div>
       </div>
     </div>
